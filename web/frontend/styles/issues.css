@@ -1,0 +1,84 @@
+.issues-severity-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.issues-severity-card .Polaris-Card__Section {
+  padding: 0.75rem 1rem;
+}
+
+.issues-severity-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.issues-severity-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.issue-group-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.issue-group-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.issue-group-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.issue-detail-card {
+  border: 1px solid var(--p-color-border-secondary, #e1e3e5);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--p-color-bg-surface, #fff);
+}
+
+.issue-detail-meta {
+  margin-top: 0.35rem;
+}
+
+.issue-detail-block {
+  margin-top: 0.5rem;
+}
+
+.issue-offending-list {
+  margin: 0.35rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.issue-offending-list li {
+  margin-bottom: 0.2rem;
+}
+
+.issue-howto-label {
+  font-weight: 700;
+}
+
+.issue-detail-actions {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .issues-severity-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

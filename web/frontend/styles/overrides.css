@@ -1,0 +1,11 @@
+/**
+ * Keep modal dialogs; remove the dark grey dimming layer behind them.
+ */
+.Polaris-Backdrop,
+.Polaris-Backdrop--entering,
+.Polaris-Backdrop--entered,
+.Polaris-Backdrop--exiting,
+.Polaris-Backdrop--belowNavigation {
+  background: transparent !important;
+  background-color: transparent !important;
+}

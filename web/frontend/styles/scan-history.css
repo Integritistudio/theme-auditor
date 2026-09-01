@@ -1,0 +1,72 @@
+.scan-history-table-wrapper {
+  overflow-x: auto;
+  padding-top: 1.25rem;
+}
+
+.scan-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.scan-history-table th,
+.scan-history-table td {
+  padding: 0.875rem 1.25rem;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--p-color-border-secondary, #e1e3e5);
+}
+
+.scan-history-table th {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--p-color-text-subdued, #6d7175);
+  background: var(--p-color-bg-surface-secondary, #f6f6f7);
+}
+
+.scan-history-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.scan-history-table tbody tr:hover td {
+  background: var(--p-color-bg-surface-hover, #f6f6f7);
+}
+
+.scan-history-table .col-health,
+.scan-history-table .col-issues {
+  text-align: center;
+  width: 7rem;
+}
+
+.scan-history-table .cell-center {
+  text-align: center;
+}
+
+.scan-history-table .col-date {
+  width: 12rem;
+}
+
+.scan-history-table .col-actions {
+  text-align: right;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.scan-history-table .cell-actions {
+  text-align: right;
+}
+
+.scan-history-table .scan-history-actions {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scan-history-table .scan-history-date {
+  white-space: nowrap;
+}
+
+.scan-history-table .status-meta {
+  margin-top: 0.25rem;
+}
